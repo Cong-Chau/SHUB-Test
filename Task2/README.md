@@ -1,12 +1,60 @@
-# React + Vite
+TASK2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Cách thực hiện
 
-Currently, two official plugins are available:
+- Khởi tạo dự án bằng Vite + React.
+- Cài đặt thư viện: TailwindCSS, Lucide, Yup.
+- Tổ chức code đơn giản trong thư mục `src`:
+  - App.jsx: Component gốc
+  - main.jsx: Entry point render React
+  - index.css: Global style (Tailwind)
+  - assets/: Chứa hình ảnh, CSS bổ sung
+- Xây dựng chức năng: giao diện cơ bản + validation với Yup.
+- Hoàn thiện: chạy dev để kiểm thử (npm run dev), build khi deploy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Cấu trúc dự án
 
-## Expanding the ESLint configuration
+TASK2/
+├── node_modules/ # Thư viện cài đặt từ npm
+├── public/ # Tài nguyên tĩnh
+├── src/ # Mã nguồn chính
+│ ├── assets/ # Hình ảnh, CSS, fonts...
+│ ├── App.jsx # Component gốc
+│ ├── index.css # Global style (TailwindCSS)
+│ └── main.jsx # Entry point của ứng dụng
+├── .gitignore # Bỏ qua file/thư mục khi commit git
+├── eslint.config.js # Cấu hình eslint
+├── index.html # File HTML gốc
+├── package.json # Thông tin dự án và dependencies
+├── package-lock.json # Lock version dependencies
+├── vite.config.js # Cấu hình Vite
+└── README.txt # Tài liệu mô tả dự án
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+⚙️ Cách cài đặt & chạy dự án
+
+1. Yêu cầu
+
+- Node.js >= 18
+- npm hoặc yarn hoặc pnpm
+
+2. Cài đặt
+   Clone repo về từ Github: https://github.com/Cong-Chau/SHUB-Test  
+   Điều hướng vào thư mục Task2
+
+3. Cài dependencies:
+   npm install
+
+4. Chạy trong môi trường dev:
+   npm run dev  
+   Ứng dụng sẽ chạy tại http://localhost:5173
+
+🚀 Công nghệ sử dụng
+
+- React 19
+- Vite 7
+- TailwindCSS 4
+- Yup (Validation)
+- Lucide React Icons
+- ESLint
