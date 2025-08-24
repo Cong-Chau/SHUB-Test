@@ -53,20 +53,23 @@ TASK1/
 - npm hoặc yarn hoặc pnpm
 
 2. Cài đặt
-   Clone repo về và cài dependencies:
+   Clone repo về từ Github: https://github.com/Cong-Chau/SHUB-Test
+   Điều hướng vào thư mục Task1
+
+3. Cài dependencies:
    npm install
 
-3. Chạy trong môi trường dev
+4. Chạy trong môi trường dev
    npm run dev
    Ứng dụng sẽ chạy tại http://localhost:5173
 
-4. Build cho production
+5. Build cho production
    npm run build
 
-5. Preview bản build
+6. Preview bản build
    npm run preview
 
-6. Kiểm tra lint
+7. Kiểm tra lint
    npm run lint
 
 ---

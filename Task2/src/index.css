@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.shadow-bottom-md {
+  box-shadow: 0 2px 3px rgba(75, 75, 75, 0.15);
+}
